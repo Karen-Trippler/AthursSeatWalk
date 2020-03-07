@@ -1,0 +1,7 @@
+/*
+ * Settings for ippo JavaFx examples
+ *
+ */
+
+rootProject.name = 'ippo-assignment2'
+include 'app'

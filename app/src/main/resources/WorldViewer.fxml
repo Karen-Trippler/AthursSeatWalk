@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="WorldController">
+  <children>
+    <Button fx:id="ball_1" layoutX="235.0" layoutY="14.0" mnemonicParsing="false" onAction="#item_event" text="Christmas Ball 1" />
+    <ImageView fx:id="imageView" fitHeight="331.0" fitWidth="561.2179062157346" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="24.78" />
+    <ImageView fx:id="basketView" fitHeight="83.0" fitWidth="99.0" layoutX="127.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true" />
+    <Button layoutX="165.0" layoutY="14.0" mnemonicParsing="false" onAction="#turnr" text="&gt;&gt;" />
+    <Button fx:id="forwardButton" layoutX="71.0" layoutY="14.0" mnemonicParsing="false" onAction="#mforward" text="Forward" />
+    <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#turnl" text="&lt;&lt;" />
+    <ImageView fx:id="ballView1" fitHeight="86.0" fitWidth="114.66666666666666" layoutX="36.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true" />
+    <Button fx:id="ball_2" layoutX="378.0" layoutY="14.0" mnemonicParsing="false" onAction="#item_event" text="Christmas Ball 2" />
+  </children>
+</AnchorPane>
